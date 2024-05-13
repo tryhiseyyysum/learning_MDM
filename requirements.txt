@@ -8,3 +8,4 @@ tensorboardX
 termcolor
 trimesh
 sympy
+joblib

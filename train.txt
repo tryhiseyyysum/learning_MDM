@@ -1,0 +1,5 @@
+python run.py --type dataset --cfg_file configs/mdm/humanml3d.yaml
+
+python run.py --type network --cfg_file configs/mdm/humanml3d.yaml
+
+python run.py --type evaluate --cfg_file configs/mdm/humanml3d.yaml

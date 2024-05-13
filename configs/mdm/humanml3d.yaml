@@ -1,0 +1,16 @@
+task: 'mdm'
+gpus: [0]
+exp_name: 'text_to_motion_humanml3d'
+
+
+train_dataset_module: lib.datasets.humanml.data.dataset
+test_dataset_module: lib.datasets.humanml.data.dataset
+network_module: lib.networks.mdm.network
+loss_module: lib.train.losses.mdm
+evaluator_module: lib.evaluators.mdm
+
+
+dataset: humanml3d
+batch_size: 32
+num_frames: 60
+
